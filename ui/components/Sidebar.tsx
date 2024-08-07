@@ -26,18 +26,18 @@ const Sidebar = ({ children }: { children: React.ReactNode }) => {
       active: segments.length === 0 || segments.includes('c'),
       label: 'Home',
     },
-    {
-      icon: Search,
-      href: '/discover',
-      active: segments.includes('discover'),
-      label: 'Discover',
-    },
-    {
-      icon: BookOpenText,
-      href: '/library',
-      active: segments.includes('library'),
-      label: 'Library',
-    },
+    // {
+    //   icon: Search,
+    //   href: '/discover',
+    //   active: segments.includes('discover'),
+    //   label: 'Discover',
+    // },
+    // {
+    //   icon: BookOpenText,
+    //   href: '/library',
+    //   active: segments.includes('library'),
+    //   label: 'Library',
+    // },
   ];
 
   return (
@@ -67,10 +67,10 @@ const Sidebar = ({ children }: { children: React.ReactNode }) => {
             ))}
           </VerticalIconContainer>
 
-          <Settings
+          {/* <Settings
             onClick={() => setIsSettingsOpen(!isSettingsOpen)}
             className="cursor-pointer"
-          />
+          /> */}
 
           <SettingsDialog
             isOpen={isSettingsOpen}

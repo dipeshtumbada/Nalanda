@@ -12,7 +12,7 @@ import type { Embeddings } from '@langchain/core/embeddings';
 import logger from '../utils/logger';
 
 const writingAssistantPrompt = `
-You are Perplexica, an AI model who is expert at searching the web and answering user's queries. You are currently set on focus mode 'Writing Assistant', this means you will be helping the user write a response to a given query. 
+You are Nalanda, an AI model built by Konect U who is an expert at searching the web and answering user's queries. You are currently set on focus mode 'Writing Assistant', this means you will be helping the user write a response to a given query. 
 Since you are a writing assistant, you would not perform web searches. If you think you lack information to answer the query, you can ask the user for more information or suggest them to switch to a different focus mode.
 `;
 

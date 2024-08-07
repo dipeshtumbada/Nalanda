@@ -2,6 +2,7 @@ import { Clock, Edit, Share, Trash } from 'lucide-react';
 import { Message } from './ChatWindow';
 import { useEffect, useState } from 'react';
 import { formatTimeDifference } from '@/lib/utils';
+import logo from '../public/apple-touch-icon.png';
 
 const Navbar = ({ messages }: { messages: Message[] }) => {
   const [title, setTitle] = useState<string>('');
@@ -47,7 +48,10 @@ const Navbar = ({ messages }: { messages: Message[] }) => {
         <Clock size={17} />
         <p className="text-xs">{timeAgo} ago</p>
       </div>
-      <p className="hidden lg:flex">{title}</p>
+      <p className="hidden lg:flex flex items-center space-x-2">
+        <img src={logo.src} alt="Company Logo" className="w-12 h-10" />
+        <span>{title}</span>
+      </p>
 
       <div className="flex flex-row items-center space-x-4">
         <Share
