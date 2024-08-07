@@ -26,14 +26,14 @@ const focusModes = [
   },
   {
     key: 'writingAssistant',
-    title: 'Writing',
-    description: 'Chat without searching the web',
+    title: 'SOP Builder',
+    description: 'Helps Build SOP',
     icon: <Pencil size={16} />,
   },
   {
     key: 'wolframAlphaSearch',
-    title: 'Wolfram Alpha',
-    description: 'Computational knowledge engine',
+    title: 'Resume Builder',
+    description: 'Helps Build Resume',
     icon: <BadgePercent size={20} />,
   },
   {
@@ -50,8 +50,8 @@ const focusModes = [
   },
   {
     key: 'redditSearch',
-    title: 'Reddit',
-    description: 'Search for discussions and opinions',
+    title: 'College Finder',
+    description: 'Helps Find right Colleges and Courses',
     icon: (
       <SiReddit
         className="h-5 w-auto mr-0.5"
