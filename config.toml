@@ -8,5 +8,5 @@ GROQ = "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" # Groq API key
 ANTHROPIC = "" # Anthropic API key - sk-ant-1234567890abcdef1234567890abcdef
 
 [API_ENDPOINTS]
-SEARXNG = "http://localhost:32768" # SearxNG API URL
+SEARXNG = "https://konectunalanda.in" # SearxNG API URL
 OLLAMA = "" # Ollama API URL - http://host.docker.internal:11434
